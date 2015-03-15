@@ -125,6 +125,7 @@ cat(c("Median steps taken daily:", median(sumSteps$steps)))
 ## Median steps taken daily: 10765
 ```
 
+The mean and median are *very* close!  Data appears to be normally distributed.
 
 ## What is the average daily activity pattern?
 Average the steps taken in each 5-minute interval over all days into a new dataframe.
