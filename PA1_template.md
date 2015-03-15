@@ -63,6 +63,17 @@ Create a clean dataset without missing values.
 
 ```r
 cleanData <- data[complete.cases(data$steps),]
+head(cleanData)
+```
+
+```
+##     steps       date interval                time
+## 289     0 2012-10-02        0 0000-01-01 00:00:00
+## 290     0 2012-10-02        5 0000-01-01 00:05:00
+## 291     0 2012-10-02       10 0000-01-01 00:10:00
+## 292     0 2012-10-02       15 0000-01-01 00:15:00
+## 293     0 2012-10-02       20 0000-01-01 00:20:00
+## 294     0 2012-10-02       25 0000-01-01 00:25:00
 ```
 
 ## What is mean total number of steps taken per day?

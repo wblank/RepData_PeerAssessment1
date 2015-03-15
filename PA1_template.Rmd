@@ -42,6 +42,7 @@ Create a clean dataset without missing values.
 
 ```{r echo=TRUE}
 cleanData <- data[complete.cases(data$steps),]
+head(cleanData)
 ```
 
 ## What is mean total number of steps taken per day?
