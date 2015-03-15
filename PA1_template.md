@@ -4,7 +4,8 @@ output:
   html_document:
     keep_md: true
 ---
-
+# Reproducible Research: Peer Assessment 1
+------------------------------------------
 
 ## Loading and preprocessing the data
 First load the data, already unzipped and located in the current directory.
